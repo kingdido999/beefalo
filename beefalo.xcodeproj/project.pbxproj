@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23019E08C58A74A45B0D09B5 /* Pods_beefalo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CB6D9F7E7890CE73F38C32A /* Pods_beefalo.framework */; };
+		681EB02E92C8D2BD5BD003A7 /* Pods_beefaloTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B43A8B9800CFC1DEDC6404EC /* Pods_beefaloTests.framework */; };
+		F79023D621A3A9AC0096FF26 /* PeelResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79023D521A3A9AC0096FF26 /* PeelResponse.swift */; };
 		F7A42E0521A39A8B00EECDCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A42E0421A39A8B00EECDCD /* AppDelegate.swift */; };
 		F7A42E0721A39A8B00EECDCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A42E0621A39A8B00EECDCD /* ViewController.swift */; };
 		F7A42E0A21A39A8B00EECDCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7A42E0821A39A8B00EECDCD /* Main.storyboard */; };
@@ -26,6 +29,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		20B75303B006C1FC33DDB847 /* Pods-beefalo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-beefalo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-beefalo/Pods-beefalo.debug.xcconfig"; sourceTree = "<group>"; };
+		5CB6D9F7E7890CE73F38C32A /* Pods_beefalo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_beefalo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A90DC016C74FF660F105382 /* Pods-beefaloTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-beefaloTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-beefaloTests/Pods-beefaloTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B43408BA18A823CDB2D05DC2 /* Pods-beefaloTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-beefaloTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-beefaloTests/Pods-beefaloTests.release.xcconfig"; sourceTree = "<group>"; };
+		B43A8B9800CFC1DEDC6404EC /* Pods_beefaloTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_beefaloTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF2B25A555C2AB2A5C13E544 /* Pods-beefalo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-beefalo.release.xcconfig"; path = "Pods/Target Support Files/Pods-beefalo/Pods-beefalo.release.xcconfig"; sourceTree = "<group>"; };
+		F79023D521A3A9AC0096FF26 /* PeelResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeelResponse.swift; sourceTree = "<group>"; };
 		F7A42E0121A39A8B00EECDCD /* beefalo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = beefalo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7A42E0421A39A8B00EECDCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7A42E0621A39A8B00EECDCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23019E08C58A74A45B0D09B5 /* Pods_beefalo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +61,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				681EB02E92C8D2BD5BD003A7 /* Pods_beefaloTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0772DC05A25DAC07634F1616 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20B75303B006C1FC33DDB847 /* Pods-beefalo.debug.xcconfig */,
+				BF2B25A555C2AB2A5C13E544 /* Pods-beefalo.release.xcconfig */,
+				8A90DC016C74FF660F105382 /* Pods-beefaloTests.debug.xcconfig */,
+				B43408BA18A823CDB2D05DC2 /* Pods-beefaloTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DDEED20177AE0023034A8990 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CB6D9F7E7890CE73F38C32A /* Pods_beefalo.framework */,
+				B43A8B9800CFC1DEDC6404EC /* Pods_beefaloTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F7A42DF821A39A8B00EECDCD = {
 			isa = PBXGroup;
 			children = (
 				F7A42E0321A39A8B00EECDCD /* beefalo */,
 				F7A42E1821A39A8D00EECDCD /* beefaloTests */,
 				F7A42E0221A39A8B00EECDCD /* Products */,
+				0772DC05A25DAC07634F1616 /* Pods */,
+				DDEED20177AE0023034A8990 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +117,7 @@
 				F7A42E0B21A39A8D00EECDCD /* Assets.xcassets */,
 				F7A42E0D21A39A8D00EECDCD /* LaunchScreen.storyboard */,
 				F7A42E1021A39A8D00EECDCD /* Info.plist */,
+				F79023D521A3A9AC0096FF26 /* PeelResponse.swift */,
 			);
 			path = beefalo;
 			sourceTree = "<group>";
@@ -103,9 +138,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F7A42E1E21A39A8D00EECDCD /* Build configuration list for PBXNativeTarget "beefalo" */;
 			buildPhases = (
+				04EAECA9DC2F63E871DFEF95 /* [CP] Check Pods Manifest.lock */,
 				F7A42DFD21A39A8B00EECDCD /* Sources */,
 				F7A42DFE21A39A8B00EECDCD /* Frameworks */,
 				F7A42DFF21A39A8B00EECDCD /* Resources */,
+				6920096BB3B5A53BBE69135E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -120,6 +157,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F7A42E2121A39A8D00EECDCD /* Build configuration list for PBXNativeTarget "beefaloTests" */;
 			buildPhases = (
+				6E250E3923C1F98685B74B08 /* [CP] Check Pods Manifest.lock */,
 				F7A42E1121A39A8D00EECDCD /* Sources */,
 				F7A42E1221A39A8D00EECDCD /* Frameworks */,
 				F7A42E1321A39A8D00EECDCD /* Resources */,
@@ -191,12 +229,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04EAECA9DC2F63E871DFEF95 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-beefalo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6920096BB3B5A53BBE69135E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-beefalo/Pods-beefalo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-beefalo/Pods-beefalo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E250E3923C1F98685B74B08 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-beefaloTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F7A42DFD21A39A8B00EECDCD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F7A42E0721A39A8B00EECDCD /* ViewController.swift in Sources */,
+				F79023D621A3A9AC0096FF26 /* PeelResponse.swift in Sources */,
 				F7A42E0521A39A8B00EECDCD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,6 +455,7 @@
 		};
 		F7A42E1F21A39A8D00EECDCD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20B75303B006C1FC33DDB847 /* Pods-beefalo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -372,6 +473,7 @@
 		};
 		F7A42E2021A39A8D00EECDCD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF2B25A555C2AB2A5C13E544 /* Pods-beefalo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -389,6 +491,7 @@
 		};
 		F7A42E2221A39A8D00EECDCD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A90DC016C74FF660F105382 /* Pods-beefaloTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -409,6 +512,7 @@
 		};
 		F7A42E2321A39A8D00EECDCD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B43408BA18A823CDB2D05DC2 /* Pods-beefaloTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
